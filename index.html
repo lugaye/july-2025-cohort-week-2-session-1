@@ -67,5 +67,41 @@
                     </tr>
                 </tbody>
             </table>
+            <h2>Embedding Videos  & Audio</h2>
+            <video width="500" height="300" controls>
+               <source src="https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4" type="video/mp4">
+               Your browser does not support videos.
+            </video>
+            <audio>
+                <source src="" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+            <h2>Forms</h2>
+            <form action="location" method="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name here...">
+                <br /><br />
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email here..."> 
+                <br /><br />
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" placeholder="Enter your age here...">
+                <br /><br />
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob">
+                <br /><br />
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Male">Male<br />
+                <input type="radio" name="gender" value="Female">Female<br />
+                <br /><br />
+                <label for="cv">Upload CV:</label>
+                <input type="file" name="cv" id="cv">
+                <br /><br />
+                <label for="bio">Bio:</label>
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write your bio here..."></textarea>
+                <br /><br />
+                <input type="submit" value="Submit">
+            </form>
+
         </body>
     </html>
